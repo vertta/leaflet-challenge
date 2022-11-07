@@ -80,7 +80,7 @@ var earthquakes = new L.layerGroup();
  //get data for earthquake and populate layer group 
 // call USGS GeoJson API
 
-d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson")
+d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson")
    .then (function(earthquakeData){
 	//console.log(earthquakeData) for troubleshooting
 
